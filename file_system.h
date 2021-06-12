@@ -1,6 +1,6 @@
 #ifndef FILESYSTEM
 #define FILESYSTEM
-#include "dir.cpp"
+#include "dir.h"
 
 class F_S{
 public:
