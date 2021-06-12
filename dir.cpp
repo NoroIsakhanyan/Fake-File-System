@@ -18,12 +18,12 @@ std::string& dir::getName()
     return m_name;
 }
 
-std::vector<dir*>& getDirectories() 
+std::vector<dir*>& dir::getDirectories() 
 {
     return m_directories;
 }
 
-std::vector<std::string>& getFiles() 
+std::vector<std::string>& dir::getFiles() 
 {
     return m_files;
 }
