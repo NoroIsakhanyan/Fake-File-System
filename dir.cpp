@@ -13,17 +13,17 @@ dir::~dir()
 		}
 }
 
-std::string& dir::getName() 
+std::string& dir::getName() const
 {
     return m_name;
 }
 
-std::vector<dir*>& dir::getDirectories() 
+std::vector<dir*>& dir::getDirectories() const
 {
     return m_directories;
 }
 
-std::vector<std::string>& dir::getFiles() 
+std::vector<std::string>& dir::getFiles() const
 {
     return m_files;
 }
