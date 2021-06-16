@@ -10,9 +10,9 @@ public:
 	dir(const std::string& name);
 	~dir();
 public:
-	std::string& getName();
-	std::vector<dir*>& getDirectories();
-	std::vector<std::string>& getFiles();
+	std::string& getName() const;
+	std::vector<dir*>& getDirectories() const;
+	std::vector<std::string>& getFiles() const;
 private:
 	std::string m_name;
 	std::vector<dir*> m_directories;
